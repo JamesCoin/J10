@@ -1,4 +1,4 @@
-                                        LA MONEDA DIGITAL DEL CRACK
+                                        LA MONEDA DIGITAL DEL CRACK COLOMBIANO
 
 [ESPECIFICAIONES TÉCNICAS]
 
