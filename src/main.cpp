@@ -1813,8 +1813,8 @@ bool CBlock::CheckBlock() const
         return DoS(50, error("CheckBlock() : proof of work failed"));
 
     // Check timestamp
-    if (GetBlockTime() > GetAdjustedTime() + 2 * 60 * 60)
-        return error("CheckBlock() : block timestamp too far in the future");
+    //if (GetBlockTime() > GetAdjustedTime() + 2 * 60 * 60)
+    //    return error("CheckBlock() : block timestamp too far in the future");
 
     // First transaction must be coinbase, the rest must not be
     if (vtx.empty() || !vtx[0].IsCoinBase())
